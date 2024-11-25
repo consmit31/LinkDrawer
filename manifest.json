@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "LinkDrawer",
+    "version": "1.0",
+  
+    "description": "Stores important links in the extension tab for easy access",
+  
+    "permissions": ["storage"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+        "default_popup": "drawer.html",
+        "default_icon": {
+            "48": "linkDrawer.png"
+        }
+    }
+  }
+  

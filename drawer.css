@@ -1,0 +1,28 @@
+:root {
+    --gunmetal: #292F36;
+    --jasper: #c84630;
+    --jade: #5da271;
+    --cherry-blossom: #f4acb7;
+    --periwinkle: #e3d7ff;
+}
+
+html {
+    border: 5px solid var(--jasper);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cherry-blossom);
+    /* border: 5px solid var(--jade); */
+    width: 300px;
+    padding: 11px;
+}
+
+input,
+button,
+select {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
